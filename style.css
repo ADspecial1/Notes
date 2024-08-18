@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-height: 100vh;
+}
+
+.Container{
+    height: 100vh;
+    max-height: 100vh;
+    width: 100vwh;
+    font-family: "Roboto",sans-serif;
+    color: black;
+    background: linear-gradient(135deg, #cf9aff,rgb(115, 0, 128));
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+.Container h1{
+    display:flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Container h1 img{
+    width: 60px;
+}
+
+.Container button img{
+    width: 25px;
+    margin-right:8px; 
+}
+
+.Container button{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(#9418fd, #571094);
+    color: white;
+    outline: 0;
+    font-size: 16px;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.input-box img{
+    width: 25px;
+    position:absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
